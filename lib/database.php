@@ -1,4 +1,15 @@
 <?php
+	/**
+	* Funções para manipulação de banco de dados MySQL
+	* Obs: as funções usadas neste exemplo, são consideradas depreciadas.
+	* Para desenvolvimento de aplicação real, deveriam ser usadas outras
+	* opções de manipulação de banco de dados do PHP (extensão MySQLi ou PDO, 
+	* por exemplo).
+	* O objetivo do uso das funções desatualizadas é manter a simplicidade
+	* do código, sem envolver conceitos de Orientação a Objetos.
+	*/
+
+
 	// variável para manter o resultado de consultas realizadas
 	$result = null;
 
