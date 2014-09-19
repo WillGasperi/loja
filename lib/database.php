@@ -35,6 +35,11 @@
 	{
 		// mantém o resultado da consulta na variável $result
 		$result = mysql_query($sql, $conn);
+
+		if (!$result)
+		{
+			die('Erro: Problema ao executar a consulta:<br><p><code>' . $sql . '</code></p>');
+		}
 	}
 
 	// função para extrair um registro do resultado retornado pela consulta
